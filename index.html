@@ -166,11 +166,11 @@
   const boton = document.getElementById("boton");
 
   function bajar(){
-    if(boton.ariaExpanded === "true" && window.screen === 400){
+    if(boton.ariaExpanded === "true" && window.screen == 400){
       informacion.style.top = "45%";
       informacion.style.animationName = "animacion1";
       informacion.style.animationTimingFunction = "linear";
-    }else if(boton.ariaExpanded === "false" && window.screen === 400){
+    }else if(boton.ariaExpanded === "false" && window.screen == 400){
       informacion.style.top = "25%";
       informacion.style.animationName = "animacion2";
       informacion.style.animationTimingFunction = "linear";
