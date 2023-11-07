@@ -278,7 +278,7 @@ footer{
 @media screen and (max-width : 500px) {
   .informacion{
     position: absolute;
-    top: 0%;
+    top: 35%;
     left: 30%;
     text-align: center;
     color: white;
