@@ -28,24 +28,25 @@ p{
   font-family: "Bell";
 }
 
-body{
-  
-}
-
 /*HEADER*/
 .navbar{
-  position: absolute;
-  left: 0;
-  right: 0;
+  position: absolute !important;
+  left: 20% !important;
 }
 
-.puntos{
+.navegador{
   z-index: 500;
 }
 
-nav .container a{
-  color: white;
+ul{
+  gap: 300px;
+}
+
+
+li a{
+  color: white !important;
   font-family: "Candy";
+  font-size: 23px !important;
 }
 
 .informacion{
@@ -195,6 +196,15 @@ footer{
   .logofooter{
     width: 150px;
   }
+
+  .navbar{
+    position: absolute !important;
+    left: 20% !important;
+  }
+  
+  ul{
+    gap: 200px;
+  }
 }
 
 @media screen and (max-width : 600px) {
@@ -242,6 +252,22 @@ footer{
     background-size: 100%;
   }
 
+  .navbar{
+    position:relative !important;
+    left: 0 !important;
+  }
+
+  ul{
+    gap: 0px !important;
+  }
+  
+  
+  li a{
+    color: rgb(0, 0, 0) !important;
+    font-family: "Candy";
+    font-size: 15px !important;
+  }
+
 }
 
 @media screen and (max-width : 400px) {
@@ -273,6 +299,62 @@ footer{
     text-align: center;
     color: white;
   }
+
+  .somos .texto {
+    width: 100%;
+    font-family: "Bell";
+    font-size: 16px;
+  
+  }
+
+  .imagenn img {
+    width: 350px;
+    border-radius: 20px;
+  }
+
+  .somos, .contenido {
+    gap: 50px;
+    margin: 50px 0 50px 0;
+    display: flex !important;
+    flex-direction: column-reverse;
+  }
+
+  footer{
+    background-image: url("./IMG/Footer/Footer2.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+}
+
+@media screen and (max-width : 300px) {
+  h2 {
+      font-size: 30px;
+      font-family: Candy;
+      text-align: center;
+  }
+  h1 {
+    font-size: 40px;
+    font-family: "Candy";
+  }
+
+  .informacion button {
+    padding: 5px 20px;
+    border-radius: 50px;
+    background: rgb(0,231,255);
+    background: radial-gradient(circle, rgba(0,231,255,1) 22%, rgba(255,239,38,1) 82%);
+    border: 0px;
+    font-family: "Candy";
+    align-items: center;
+    text-align: center;
+  }
+
+  .informacion {
+    position: absolute;
+    top: 27%;
+    left: 22%;
+    text-align: center;
+    color: white;
+}
 
   .somos .texto {
     width: 100%;
