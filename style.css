@@ -276,70 +276,69 @@ footer{
 }
 
 @media screen and (max-width : 500px) {
-  .informacion{
-    position: absolute;
-    top: 35%;
-    left: 30%;
-    text-align: center;
-    color: white;
-  }
-
-  h2{
+  h2 {
     font-size: 30px;
-    font-family: "Candy";
+    font-family: Candy;
     text-align: center;
-  }
-  
-  h1{
-    font-size: 50px;
-    font-family: "Candy";
-  }
-  .somos, .contenido{
-    gap: 50px;
-    margin: 50px 0 50px 0;
-    display: inline-grid !important;
-  }
+}
+h1 {
+  font-size: 40px;
+  font-family: "Candy";
+}
 
-  .imagen{
-    text-align: center;
-  }
-  .pt-6 {
-    padding: 20px 5%;
-    justify-content: space-evenly;
-    flex-direction: column;
-  }
+.informacion button {
+  padding: 5px 20px;
+  border-radius: 50px;
+  background: rgb(0,231,255);
+  background: radial-gradient(circle, rgba(0,231,255,1) 22%, rgba(255,239,38,1) 82%);
+  border: 0px;
+  font-family: "Candy";
+  align-items: center;
+  text-align: center;
+}
 
-  .seccionfooter{
-    margin: auto;
-    margin-bottom: 30px;
-  }
+.informacion{
+  position: absolute;
+  top: 18%;
+  left: 30%;
+  text-align: center;
+  color: white;
+}
 
-  footer{
-    background-image: url("./IMG/Footer/Footer3.png");
-    background-repeat: no-repeat;
-    background-size: 100%;
-  }
+@keyframes animacion1 {
+  from   {top:17%;}
+  to {top:45%;}
+}
 
-  .navbar{
-    position:relative !important;
-    left: 0% !important;
-  }
+@keyframes animacion2 {
+  from   {top:45%;}
+  to {top:17%;}
+}
 
-  .navegador{
-    justify-content: end !important;
-  }
+.somos .texto {
+  width: 100%;
+  font-family: "Bell";
+  font-size: 16px;
 
-  ul{
-    gap: 0px !important;
-  }
-  
-  
-  li a{
-    color: rgb(0, 0, 0) !important;
-    font-family: "Candy";
-    font-size: 15px !important;
-    text-align: right;
-  }
+}
+
+.imagenn img {
+  width: 350px;
+  border-radius: 20px;
+}
+
+.somos, .contenido {
+  gap: 50px;
+  margin: 50px 0 50px 0;
+  display: flex !important;
+  flex-direction: column-reverse;
+}
+
+footer{
+  background-image: url("./IMG/Footer/Footer2.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
 
 }
 
