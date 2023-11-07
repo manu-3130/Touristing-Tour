@@ -51,7 +51,7 @@ li a{
 
 .informacion{
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 37%;
   text-align: center;
   color: white;
@@ -210,7 +210,7 @@ footer{
 @media screen and (max-width : 600px) {
   .informacion{
     position: absolute;
-    top: 30%;
+    top: 35%;
     left: 30%;
     text-align: center;
     color: white;
@@ -254,7 +254,11 @@ footer{
 
   .navbar{
     position:relative !important;
-    left: 0 !important;
+    left: 0% !important;
+  }
+
+  .navegador{
+    justify-content: end !important;
   }
 
   ul{
@@ -266,6 +270,7 @@ footer{
     color: rgb(0, 0, 0) !important;
     font-family: "Candy";
     font-size: 15px !important;
+    text-align: right;
   }
 
 }
@@ -294,10 +299,20 @@ footer{
 
   .informacion{
     position: absolute;
-    top: 20%;
+    top: 25%;
     left: 30%;
     text-align: center;
     color: white;
+  }
+
+  @keyframes animacion1 {
+    from   {top:25%;}
+    to {top:45%;}
+  }
+
+  @keyframes animacion2 {
+    from   {top:45%;}
+    to {top:25%;}
   }
 
   .somos .texto {
@@ -351,7 +366,7 @@ footer{
   .informacion {
     position: absolute;
     top: 27%;
-    left: 22%;
+    left: 20%;
     text-align: center;
     color: white;
 }
