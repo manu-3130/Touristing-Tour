@@ -299,20 +299,20 @@ footer{
 
   .informacion{
     position: absolute;
-    top: 0%;
+    top: 17%;
     left: 30%;
     text-align: center;
     color: white;
   }
 
   @keyframes animacion1 {
-    from   {top:25%;}
+    from   {top:17%;}
     to {top:45%;}
   }
 
   @keyframes animacion2 {
     from   {top:45%;}
-    to {top:25%;}
+    to {top:17%;}
   }
 
   .somos .texto {
@@ -365,7 +365,7 @@ footer{
 
   .informacion {
     position: absolute;
-    top: 0%;
+    top: 18%;
     left: 20%;
     text-align: center;
     color: white;
