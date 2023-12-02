@@ -134,6 +134,14 @@ button a{
   border-radius: 20px;
 }
 
+.modal{
+  background: rgba(128, 128, 128, 0.20)
+}
+
+.modal-header{
+  background: radial-gradient(circle, rgba(0,231,255,1) 22%, rgba(255,239,38,1) 82%);
+}
+
 /*FIN SERVICIOS*/
 
 /*FOOTER*/
