@@ -152,6 +152,10 @@ button a{
   gap: 1rem;
 }
 
+.botones button{
+  color: black;
+}
+
 /*FIN SERVICIOS*/
 
 /*FOOTER*/
