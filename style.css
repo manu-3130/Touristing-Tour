@@ -358,6 +358,15 @@ footer{
   background-size: 100%;
 }
 
+.servicio{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.card{
+  width: 15rem;
+}
 }
 
 @media screen and (max-width : 400px) {
@@ -424,6 +433,15 @@ footer{
     background-repeat: no-repeat;
     background-size: 100%;
   }
+  .servicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card{
+    width: 12rem;
+  }
 }
 
 
@@ -480,5 +498,15 @@ footer{
     background-image: url("./IMG/Footer/Footer2.png");
     background-repeat: no-repeat;
     background-size: 100%;
+  }
+
+  .servicio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .card{
+    width: 10rem;
   }
 }
