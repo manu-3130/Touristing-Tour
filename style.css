@@ -142,6 +142,16 @@ button a{
   background: radial-gradient(circle, rgba(0,231,255,1) 22%, rgba(255,239,38,1) 82%);
 }
 
+.card{
+  width: 28rem;
+}
+
+.botones{
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
 /*FIN SERVICIOS*/
 
 /*FOOTER*/
@@ -288,7 +298,12 @@ footer{
   }
 
   .card{
-    width: 8rem;
+    width: 16rem;
+  }
+
+  .botones{
+    display: flex;
+    flex-direction: column;
   }
 
 }
@@ -363,10 +378,6 @@ footer{
   flex-direction: column;
   justify-content: center;
 }
-
-.card{
-  width: 8rem;
-}
 }
 
 @media screen and (max-width : 400px) {
@@ -439,9 +450,7 @@ footer{
     justify-content: center;
   }
 
-  .card{
-    width: 8rem;
-  }
+
 }
 
 
@@ -504,9 +513,5 @@ footer{
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-
-  .card{
-    width: 8rem;
   }
 }
